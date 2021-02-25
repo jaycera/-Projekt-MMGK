@@ -5,6 +5,7 @@ body {
 
 p {
   font-size: 17px;
+  padding: 10px;
 }
 
 table {
@@ -25,9 +26,11 @@ table {
 header {
   background-color: #1E1E1E;
   color: #46D1E6;
+  padding: 10px;
 }
 
 footer {
   background-color: #1E1E1E;
   color: #46D1E6;
+  padding: 10px;
 }
