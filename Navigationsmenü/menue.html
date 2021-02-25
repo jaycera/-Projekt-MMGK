@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="menue.css">
+    <title>Menue</title>
+  </head>
+  <body style="background-image:url(hintergrund.jpg)">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Was ist das Dark Web?</a>
+  <a href="#TEST1">TEST1</a>
+  <a href="#TEST2">TEST2</a>
+  <a href="#TEST3">TEST3</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:750px">
+  <h2>BEISPIEL</h2>
+  <p>TEST BROWSER RESIZING</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
