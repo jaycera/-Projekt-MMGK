@@ -1,7 +1,7 @@
 UM NUR DIESEN ORDNER ZU DOWNLOADEN EINFACH "https://github.com/jaycera/-Projekt-MMGK/tree/main/WEBSEITE%20FINAL" eingeben:<br>
 https://downgit.github.io/#/home
 
-Alle anderen Dateien werden im selben Verzeichnis benötigt, dass die index.html funktioniert.
+Alle Dateien werden im selben Verzeichnis benötigt, dass die index.html funktioniert.
 
 Bitte noch den Rest optimieren wenn ihr Zeit findet, ich kann nicht mehr o.o 
 Manchmal muss noch ein Bild zentriert werden oder die size eines Textes. 
