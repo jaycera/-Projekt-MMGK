@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Social Engineering</title>
+    <link rel="stylesheet" href="projektstyle.css">
+    <style media="screen">
+    .bildquelle {
+      font-size: 10px;
+    }
+
+    .bild {
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span id="main" style="font-size:30px;cursor:pointer;display:flex;justify-content:center;align-items:center;" onclick="openNav()">&#9776; Navigationsmenü öffnen</span>
+      <header class="topnav" id="myTopnav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <header class="overlay-content">
+          <br><br><br>
+          <a href="index.html">Startseite</a>
+          <a href="Schichten.html">Schichten des Internet</a>
+          <a href="länder.html">Länderverteilung im Dark Web</a>
+          <a href="WieWer.html">Wie wird das Dark Web verwendet?</a>
+          <a href="handel_schwarzmarkt.html">Handel und Schwarzmarkt im Dark Web</a>
+          <a href="Cyberkriminalität.html">Cyberkriminalität</a>
+          <a href="ZugangDarkWeb.html">Zugang zum Dark Web</a>
+          <a href="SocialEngineering.html">Social Engineering</a>
+          <br><br><br>
+        </header>
+      </header>
+      <script>
+       function openNav() {
+         document.getElementById("myTopnav").style.height = "100%";
+       }
+
+       function closeNav() {
+         document.getElementById("myTopnav").style.height = "0%";
+       }
+       </script>
+      <br>
+      <p>Dark Web und Cyberkriminalität</p>
+      <p>Jason Batz - Laetitia Bock - Mariia Rykova</p>
+      <br>
+    </header>
+    <h1>Social Engineering - die Schwachstelle vor dem Computer</h1>
+    <p>Bei Sicherheit im Netz denken alle sofort an Firewalls, sichere Passwörter und Anti-Viren-Software. Die Dinge sind natürlich wichtig, aber auch sie helfen nichts, wenn man einen anderen wichtigen Faktor außer Acht lässt: der Mensch vor dem Bildschirm.
+    <br>Das beste Sicherheitssystem nützt nichts, wenn man die Verbrecher selbs rein lässt.</p>
+    <div class="bild">
+      <img src="33440292174_e2a50ffdb3_b.jpg" alt="Vorsicht bei verdächtigen Nachrichten" width="768" height="513">
+      <p class="bildquelle">
+        <a href="https://www.flickr.com/photos/60852899@N07/33440292174">"Cyberkriminalität"</a>
+        by
+        <a href="https://www.flickr.com/photos/60852899@N07">Bankenverband</a>
+        is marked with
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=ccsearch&atype=rich">CC0 1.0</a>
+      </p>
+    </div>
+    <h2>Was ist Social Engineering?</h2>
+    <p>Social Engineering greift den Mensch als scheinbar schwächstes Glied der Sicherheitskette an und nutzt menschliche Empfindungen wie Mitleid, Hilfsbereitschaft oder Angst oder Respekt vor Autoritäten aus, um die Opfer zu manipulieren. Dabei ist Social Engineering nichts Neues, es ist schon immer eine Grundlage für Betrug. Im Zeitalter der Cyberkriminalität lassen sich allerdings wesentlich mehr potentielle Opfer erreichen.<br>Beim Social Engineering werden Menschen entweder dazu gebracht, sicherheitsrelevante Informationen preiszugeben (Passwörter, Kontodaten, ...) oder etwas auf ihrem Computer zu installieren oder herunterzuladen (Viren, Schadsoftware, ...). Das findet nicht ausschließlich über das Internet statt, häufig wird auch mit Telefonaten gearbeitet. Anrufer geben sich als Mitarbeiter der IT-Abteilung aus, behaupten dass es ein Netzwerkproblem gibt und sie die Login-Daten des Angerufenen brauchen um den Fehler zu beheben. Nicht besonders kompliziert und leider sehr erfolgreich.<\p>
+      <h2>Wie funktioniert Social Engineering?</h2>
+      <p>Der Fokus beim Social Engineering liegt auf der Täuschung der Opfer über Indentität und Absicht des Täters. Klassische Beispiele sind viele Varianten des falschen IT-Supports (siehe oben) oder Phishing-Mails. Typischerweise wird dem Opfer vorgemacht, dass alles was es tut zur Verbesserung der Sicherheit des Computers beiträgt. Die Opfer handeln im festen Glauben, das Richtige zu tun.<br>Die Kommunikations über technische Hilfsmittel wie E-Mail ist dabei sehr hilfreich für die Absichten das Täters: im Gespräch Angesicht zu Angesicht muss der Täter sämtliche Sinne des Opfers täuschen. Außerdem kann der Täter bei rein technischer Kommunikation im Vorfeld der Kontaktaufnahme Hintergrundinformationen über das Opfer oder das betroffenen Unternehmen suchen. Solche Informationen helfen, ein Vertrauensverhältnis aufzubauen und gezieltere Angriffe vorzunehmen.
+        <table>
+          <tr>
+            <td>Phishing</td>
+            <td>Durch echt wirkende E-Mails werden die Opfer dazu gebracht, auf einen Link zu klicken. Auf der Seite werden sie dann angewiesen, ihre Anmeldeinformationen einzugeben. Der Betrüger kann diese Daten dann einfach abrufen.</td>
+          </tr>
+          <tr>
+            <td>Spear Phishing</td>
+            <td>Das Spear Phishing ist die gezieltere Variante des Phishing. Der oder die Täter sammeln im Vorfeld Informationen und starten dann gezielte Angriffe auf eine Person oder Personengruppe.</td>
+          </tr>
+          <tr>
+            <td>CEO-Fraud</td>
+            <td>Beim CEO Betrug wenden sich die Täter an Mitarbeiter mit Entscheidungs- oder Zahlungsbefugnissen. Sie manipulieren die Mitarbeiter dahingehend, angeblich im Auftrag des Chefs hohe Geldbeträge zu überweisen.</td>
+          </tr>
+        </table>
+      </p>
+      <h2>Wie schützt man sich vor Social Engineering?</h2>
+      <p>Social Engineering komplett zu vermeiden ist kaum möglich, da die Täter sich grundlegende menschliche Eigenschaften zu nutzen machen. Man kann aber gewisse Vorsichtsmaßnahmen ergreifen:
+        <ul>
+          <li>Gehen Sie verantwortungsvoll mit sozialen Netzwerken um und passen Sie auf, was Sie über sich oder Ihren Arbeitgeber preisgeben.</li>
+          <li>Teilen Sie Passwörter oder Zugangsdaten niemals über E-Mail oder Telefon mit.</li>
+          <li>Machen Sie den sogenannten 3-Sekunden-Sicherheits-Check: Ist der Absender bekannt? Macht der Betreff Sinn? Erwarten Sie von diesem Absender einen Anhang ode Link?</li>
+          <li>Ist eine schnelle Reaktion gefragt, nehmen Sie sich die Zeit den Absender anzurufen und zu klären, dass die Nachricht legitim ist.</li>
+        </ul>
+      </p>
+      <footer>
+        <br>
+        <a href="quellen.html">Quellen</a>
+        <br>
+        <br>
+      </footer>
+  </body>
+</html>
